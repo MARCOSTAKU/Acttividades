@@ -1,11 +1,11 @@
-interface corredor {
+interface Corredor {
     ID: number;
     Nombre: string;
     Peso: number;
     Altura: number;
     Edad: number;
 }
-const corredores: corredor[] = [
+const corredores: Corredor[] = [
     {
         ID: 1,
         Nombre: 'Marcos',
@@ -58,6 +58,6 @@ for (let corredor of corredores) {
 }
 
 export{
-    corredor,
+    Corredor,
     corredores
 }
