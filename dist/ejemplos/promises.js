@@ -9,7 +9,7 @@ function buscarCorredorPorID(arreglo, id) {
                 resolve(corredorEncontrado);
             }
             else {
-                reject('Corredor no encontrado');
+                reject(new Error('Corredor no encontrado'));
             }
         }, 1000);
     });

@@ -1,12 +1,35 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.corredores = void 0;
-let corredores = [
-    { ID: 1, Nombre: 'Carlos', Peso: 70, Altura: 1.75, Edad: 28 },
-    { ID: 2, Nombre: 'Ana', Peso: 60, Altura: 1.68, Edad: 24 },
-    { ID: 3, Nombre: 'Luis', Peso: 80, Altura: 1.82, Edad: 30 },
-    { ID: 4, Nombre: 'María', Peso: 55, Altura: 1.65, Edad: 22 },
-    { ID: 5, Nombre: 'Pedro', Peso: 72, Altura: 1.78, Edad: 27 }
+const corredores = [
+    {
+        ID: 1,
+        Nombre: 'Marcos',
+        Peso: 28,
+        Altura: 180,
+        Edad: 20
+    },
+    {
+        ID: 2,
+        Nombre: 'Jeremy',
+        Peso: 28,
+        Altura: 180,
+        Edad: 20
+    },
+    {
+        ID: 3,
+        Nombre: 'Cristopher',
+        Peso: 28,
+        Altura: 180,
+        Edad: 20
+    },
+    {
+        ID: 4,
+        Nombre: 'Jordi',
+        Peso: 28,
+        Altura: 180,
+        Edad: 20
+    },
 ];
 exports.corredores = corredores;
 corredores.forEach(corredor => {
