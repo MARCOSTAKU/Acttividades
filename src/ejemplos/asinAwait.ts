@@ -1,3 +1,4 @@
+//Entidad 1
 import { corredores} from './arreglos'
 import {buscarCorredorPorID} from './promises'
 async function mostrarCorredorPorID(id: number) {

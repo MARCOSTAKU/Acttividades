@@ -1,9 +1,42 @@
-console.log('Hola Mundo')
 //Callback
-import {corredores,buscarCorredor,buscarPorID} from './ejemplos/callback'
-buscarCorredor(corredores, 3, buscarPorID);
+// import {buscarCarrera,buscarPorNombre, carrera} from './ejemplos/callback'
+// buscarCarrera(carrera, 'Carrera A', buscarPorNombre);
 
 //promises-asinAwait
-import {mostrarCorredorPorID} from './ejemplos/asinAwait'
-mostrarCorredorPorID(3); 
-mostrarCorredorPorID(6);
+
+// import { carrera} from './ejemplos/arreglos';
+// import {buscarCarreraPorNombre, buscarSeguimientoPorID } from './ejemplos/promises'
+
+// buscarCarreraPorNombre(carrera, 'Carrera A')
+//     .then(carrera => {
+//         console.log(`Carrera encontrada: 
+//         Nombre: ${carrera?.NombreCarrera}, 
+//         Kilómetros: ${carrera?.CantidadKilometros}, 
+//         Detalles: ${carrera?.DetallesAdicionales}, 
+//         Fecha: ${carrera?.Fecha.toDateString()}, 
+//         Hora: ${carrera?.Hora}`);
+//     })
+//     .catch(error => console.log(error));
+// buscarSeguimientoPorID(seguimiento, 2)
+//     .then(seguimiento => {
+//         console.log(`Seguimiento encontrado: 
+//         ID: ${seguimiento?.ID}, 
+//         ID Carrera: ${seguimiento?.IDcarrera}, 
+//         Tiempo Llegado: ${seguimiento?.TiempoLlegado}, 
+//         Orden Llegado: ${seguimiento?.OrdenLlegado}, 
+//         Pulso Inicial: ${seguimiento?.PulsoInicial}, 
+//         Pulso Final: ${seguimiento?.PulsoFinal}`);
+//     })
+//     .catch(error => console.log(error));
+// buscarCarreraPorNombre(carrera, 'Carrera B')
+//     .then((carrera) => {
+//         if (carrera) {
+//             console.log(`Carrera encontrada: 
+//             Nombre: ${carrera.NombreCarrera}, 
+//             Kilómetros: ${carrera.CantidadKilometros}, 
+//             Detalles: ${carrera.DetallesAdicionales}, 
+//             Fecha: ${carrera.Fecha.toDateString()}, 
+//             Hora: ${carrera.Hora}`);
+//         }
+//     })
+//     .catch((error: Error) => console.log(error));
