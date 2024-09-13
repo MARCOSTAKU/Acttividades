@@ -1,5 +1,4 @@
 "use strict";
-//Entidad 1
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.corredores = exports.carrera = void 0;
 exports.buscarCarrera = buscarCarrera;
@@ -8,6 +7,7 @@ exports.buscarPorID = buscarPorID;
 exports.buscarSeguimiento = buscarSeguimiento;
 exports.buscarPorNombre = buscarPorNombre;
 exports.buscarSeguimientoPorID = buscarSeguimientoPorID;
+//Entidad 1
 const arreglos_1 = require("./arreglos");
 Object.defineProperty(exports, "corredores", { enumerable: true, get: function () { return arreglos_1.corredores; } });
 function buscarCorredor(arreglo, id, callback) {

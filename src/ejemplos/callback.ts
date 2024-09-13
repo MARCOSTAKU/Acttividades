@@ -1,5 +1,4 @@
 //Entidad 1
-
 import { corredores, Corredor } from './arreglos'
 function buscarCorredor(arreglo: Corredor[], id: number, callback: (arr: Corredor[], id: number) => Corredor | undefined): void {
     const corredorEncontrado = callback(arreglo, id);
@@ -12,7 +11,6 @@ function buscarCorredor(arreglo: Corredor[], id: number, callback: (arr: Corredo
 function buscarPorID(arreglo: Corredor[], id: number): Corredor | undefined {
     return arreglo.find(corredor => corredor.ID === id);
 }
-
 //Entidad 2
 import { Carrera, carrera } from './arreglos'
 function buscarCarrera(
@@ -34,7 +32,6 @@ function buscarCarrera(
 function buscarPorNombre(arreglo: Carrera[], nombre: string): Carrera | undefined {
     return arreglo.find(carrera => carrera.NombreCarrera === nombre);
 }
-
 //Entidad 3
 import { Seguimiento } from './arreglos'
 function buscarSeguimiento(

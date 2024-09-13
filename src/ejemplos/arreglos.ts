@@ -99,7 +99,6 @@ const carrera: Carrera[]=[
         Hora: 15
     },
 ] 
-
 const corredores: Corredor[] = [
     {
         ID: 1,
@@ -158,7 +157,6 @@ for (let corredor of corredores) {
         Altura: ${corredor.Altura}, 
         Edad: ${corredor.Edad}`);
 }
-
 export{
     Corredor,
     corredores,
