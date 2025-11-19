@@ -34,7 +34,7 @@
     "foreground-child": "^3.3.0",
     "fs.realpath": "^1.0.0",
     "function-bind": "^1.1.2",
-    "glob": "^11.0.0",
+    "glob": "^11.1.0",
     "glob-parent": "^5.1.2",
     "hasown": "^2.0.2",
     "inflight": "^1.0.6",
